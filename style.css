@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
 /* Navbar styling */
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,31 +27,32 @@ li{
     color: #fff;
 }
 
-.nav-links a{
+.nav-links a {
     color: #fff;
 }
 
 /* Logo */
-.logo{
+.logo {
     font-size: 36px;
 }
-.logo .logo1{
+
+.logo .logo1 {
     color: #FF8C32;
 }
 
 /* Navbar Menu */
-.menu{
+.menu {
     display: flex;
     padding: 5px;
     font-size: 16px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #FF8C32;
     text-shadow: none;
 }
 
-.menu li{
+.menu li {
     padding: 10px 14px;
 }
 
@@ -68,17 +69,48 @@ li{
     background-color: #FF8C32;
     color: #fff;
     cursor: pointer;
-  }
-  
-  .button1:hover {
-    background-color: #ffffff; /* Green */
+}
+
+.button1:hover {
+    background-color: #ffffff;
+    /* Green */
     color: #FF8C32;
     border: 2px solid #FF8C32;
     transition-duration: 0.8s;
-  }
+}
 
-  /* Image Slider */
-.slider-frame{
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 4px 16px;
+    border-radius: 20px;
+    width: 215px;
+    margin-left: 8px;
+}
+
+.search-bar .search-icon{
+    font-size: 1.2rem;
+    color: #7e7e7e;
+}
+
+.search-bar .search-input{
+    transition: .5s;
+    width: 0px;
+}
+
+.search-bar .search-input .input{
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+    font-family: 'Poppins';
+    font-size: .9rem;
+}
+
+
+/* Image Slider */
+.slider-frame {
     overflow: hidden;
     height: 660px;
     width: auto;
@@ -86,7 +118,7 @@ li{
 }
 
 /* slide animation */
-.slider-form{
+.slider-form {
     width: 1180px;
     position: absolute;
     left: 19%;
@@ -97,47 +129,106 @@ li{
     overflow: hidden;
 }
 
-.img-slider{
+.img-slider {
     width: 100%;
     display: flex;
     animation: slide 16s infinite;
 }
 
-img{
+img {
     width: 100%;
-    
+
 }
 
-@keyframes slide{
-    0%{
+.slider-pic{
+    width: 1110px;
+    height: 600px;
+    position: absolute;
+    left: 17%;
+    border: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 5px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    animation: slides 16s infinite;
+}
+
+.slider-pic h3{
+    position: relative;
+    margin-top: 15rem;
+    text-align: center;
+}
+
+@keyframes slide {
+    0% {
         transform: translateX(0);
     }
-    15%{
+
+    15% {
         transform: translateX(0);
     }
-    25%{
+
+    25% {
         transform: translateX(-100%);
     }
-    35%{
+
+    35% {
         transform: translateX(-100%);
     }
-    50%{
+
+    50% {
         transform: translateX(-200%);
     }
-    60%{
+
+    60% {
         transform: translateX(-200%);
     }
-    75%{
+
+    75% {
         transform: translateX(-300%);
     }
-    85%{
+
+    85% {
         transform: translateX(-300%);
     }
-    95%{
+
+    95% {
         transform: translateX(-400%);
     }
-    100%{
+
+    100% {
         transform: translateX(-400%);
+    }
+}
+
+@keyframes slides {
+    0% {
+        transform: translateX(0);
+    }
+
+    15% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    35% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-200%);
     }
 }
 
@@ -174,13 +265,13 @@ img{
 
 /* Card Hot News */
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.card-news{
+.card-news {
     width: 365px;
     border-radius: 10px;
     overflow: hidden;
@@ -188,56 +279,56 @@ img{
     margin: 20px;
 }
 
-.card-content{
+.card-content {
     padding: 16px;
 }
 
-.card-content h3{
+.card-content h3 {
     font-size: 20px;
     margin-bottom: 8px;
 }
 
-.card-content p{
+.card-content p {
     color: #666;
     font-size: 15px;
     line-height: 1.3;
     text-align: justify;
 }
 
-.user-news { 
+.user-news {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: .5rem;
     margin-top: 10px;
-} 
+}
 
-.user-image{ 
+.user-image {
     position: relative;
-    width: 50px; 
-    height: 50px; 
-    overflow: hidden; 
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
     border-radius: 50%;
     object-fit: cover;
     object-position: 0 30%;
 }
 
-.user-image img{
-    width: 100%; 
+.user-image img {
+    width: 100%;
     height: auto;
 }
 
-.user-info{
+.user-info {
     display: flex;
     justify-content: flex-start;
 }
 
-.user-news >small{
+.user-news>small {
     color: #7e7e7e;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.user-info .btn-news{
+.user-info .btn-news {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -250,3 +341,64 @@ img{
     margin-left: 16px;
 }
 
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+.box-container .box {
+    padding: 1.2rem 1.3rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.box-container .box img {
+    height: 12rem;
+    margin: .5rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 1.5rem;
+}
+
+.box-container .box .btn {
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border: none;
+    display: block;
+    border-radius: 20px;
+    background-color: #FF8C32;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-container .box .btn:hover {
+    background-color: #ffffff;
+    color: #FF8C32;
+    border: 2px solid #FF8C32;
+    transition-duration: 0.8s;
+}
+
+.box-container .box .desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container .box .desc .btn{
+    float: right;
+}
+
+.box-container .box .desc .dec{
+    margin-top: .5rem;
+}
+
+.box-container .box .desc .dec .fas{
+    color: #A00000;
+}
