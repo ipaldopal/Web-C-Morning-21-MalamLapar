@@ -402,3 +402,57 @@ img {
 .box-container .box .desc .dec .fas{
     color: #A00000;
 }
+
+.title h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #FF8C32; 
+}
+
+.title h1 span {
+    color: #fff; 
+}
+
+.title p {
+    font-size: 20px;
+    margin: 0;
+    color: #fff; 
+}
+
+.title p span {
+    color: #FF8C32; 
+}
+
+
+/* Styling header */
+.header {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box {
+    background-color: #06113C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 400px; 
+}
+
+/* Styling header kiri (logo) */
+.header-left {
+    margin-right: 20px;
+}
+
+/* Styling header kanan (judul dan deskripsi) */
+.header-right h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.header-right p {
+    font-size: 16px;
+}
