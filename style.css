@@ -421,39 +421,6 @@ img {
   color: #ff8c32;
 }
 
-/* Styling header */
-.header {
-  background-color: #fff;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-box {
-  background-color: #06113c;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
-}
-
-/* Styling header kiri (logo) */
-.header-left {
-  margin-right: 20px;
-}
-
-/* Styling header kanan (judul dan deskripsi) */
-.header-right h1 {
-  font-size: 24px;
-  margin-bottom: 5px;
-}
-
-.header-right p {
-  font-size: 16px;
-}
-
 /* INFORMASI */
 /* kota */
 
@@ -629,3 +596,86 @@ img {
 .btn-learn a {
   color: #ffffff;
 }
+
+/*layanan*/
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.headerlayanan {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #06113C;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 150px
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left img {
+  max-width: 170px;
+  height: auto;
+}
+
+.header-right {
+  text-align: left;
+}
+
+.header-right h1 {
+  font-size: 36px;
+}
+
+.header-right p {
+  font-size: 36px;
+}
+
+.header-right h1, .header-right p {
+  color: white;
+}
+
+.header-right h1 span, .header-right p span {
+  color: #FF8C32;
+}
+
+.card {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-content {
+  margin-bottom: 20px;
+  padding: 0px 0;
+}
+
+.card p {
+  font-size: 15px;
+  color: #000;
+}
+
+.card p strong {
+  font-weight: bold;
+  font-size: 36px;
+  color: #06113C;
+}
+
+.highlight {
+  color: #FF8C32;
+}
+
+/*layanan*/
