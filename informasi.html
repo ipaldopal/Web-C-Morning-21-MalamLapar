@@ -20,8 +20,15 @@
           <li><a href="#">Lokasi</a></li>
           <li><a href="komunitas.html">Komunitas</a></li>
           <li><a href="layanan.html">Layanan</a></li>
-          <!-- button Mulai -->
-          <button class="button1"><a href="#"></a>Mulai</button>
+          <!-- button Search-->
+          <div class="search-bar">
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="search-input">
+              <input type="text" class="input" placeholder="search" />
+            </div>
+          </div>
         </div>
       </ul>
     </nav>
@@ -99,5 +106,30 @@
         </div>
       </div>
     </section>
+    <br />
+    <br />
+    <br />
+
+    <div class="container-search">
+      <h1 class="head">Cari Lokasi</h1>
+      <form>
+        <div class="row">
+          <div class="col">
+            <label for="date">Tanggal</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="col">
+            <label for="location">Lokasi</label>
+            <select id="location" name="location">
+              <option value="">Pilih Lokasi</option>
+              <option value="1">Batam</option>
+              <option value="2">Jakarta</option>
+              <option value="3">Medan</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit">Cari</button>
+      </form>
+    </div>
   </body>
 </html>

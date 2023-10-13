@@ -496,6 +496,8 @@ img {
   border: none;
   display: block;
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
   background-color: #ff8c32;
   color: #fff;
   cursor: pointer;
@@ -597,6 +599,67 @@ img {
   color: #ffffff;
 }
 
+.container-search {
+  width: 500px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #cccccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #06113c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #06113c;
+  color: #cccccc;
+  border: 1px solid;
+  transition-duration: 0.8s;
+}
+
+/* navbar */
+
 /*layanan*/
 
 .container {
@@ -609,12 +672,12 @@ img {
   border: 1px solid #ddd;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #06113C;
+  background-color: #06113c;
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  height: 150px
+  height: 150px;
 }
 
 .header-content {
@@ -640,12 +703,14 @@ img {
   font-size: 36px;
 }
 
-.header-right h1, .header-right p {
+.header-right h1,
+.header-right p {
   color: white;
 }
 
-.header-right h1 span, .header-right p span {
-  color: #FF8C32;
+.header-right h1 span,
+.header-right p span {
+  color: #ff8c32;
 }
 
 .card {
@@ -671,11 +736,11 @@ img {
 .card p strong {
   font-weight: bold;
   font-size: 36px;
-  color: #06113C;
+  color: #06113c;
 }
 
 .highlight {
-  color: #FF8C32;
+  color: #ff8c32;
 }
 
 /*layanan*/
