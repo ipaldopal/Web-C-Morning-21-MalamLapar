@@ -14,7 +14,7 @@ img{
 }
 
 .container{
-    height: 560px;
+    height: 540px;
     width: 550px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -26,7 +26,7 @@ img{
 }
 
 form{
-    height: 520px;
+    height: 490px;
     width: 500px;
     background-color: #fff;
     position: absolute;
@@ -50,7 +50,7 @@ form *{
 form h3{
     font-size: 32px;
     font-weight: 600;
-    line-height: 42px;
+    line-height: 40px;
     text-align: center;
 }
 
@@ -60,6 +60,7 @@ form h2{
     line-height: 42px;
     text-align: center;
     color: #8C8C8C;
+    padding-bottom: 25px;
 }
 
 label{
@@ -93,7 +94,7 @@ input{
 }
 
 button{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
     background-color: #ff8c32;
     color: #fff;
@@ -102,6 +103,12 @@ button{
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .hrtext{
@@ -125,3 +132,53 @@ button{
     border-radius: 10px;
 }
 
+.icon-google-fb{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.google{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+}
+
+.facebook{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+}
+
+.text-daftar{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text-daftar p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.daftar{
+    width: 30%;
+    height: 40%;
+    display: flex;
+    font-size: 14px;
+    background-color: #0a1f53;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
