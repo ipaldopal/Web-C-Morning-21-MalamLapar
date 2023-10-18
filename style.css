@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    
     background-color: #fff;
     box-sizing: border-box;
 }
@@ -137,7 +140,6 @@ li {
 
 img {
     width: 100%;
-
 }
 
 .slider-pic{
@@ -150,18 +152,6 @@ img {
     border-bottom-right-radius: 20px;
     box-shadow: 1px 5px 28px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-}
-
-.slider {
-    width: 100%;
-    display: flex;
-    animation: slides 16s infinite;
-}
-
-.slider-pic h3{
-    position: relative;
-    margin-top: 15rem;
-    text-align: center;
 }
 
 @keyframes slide {
@@ -234,18 +224,10 @@ img {
 
 /* Main */
 .header1 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 63.5%;
-    margin-top: 650px;
-    margin-left: 340px;
+    margin-top: 3rem;
+    margin-left: 22rem;
     padding: 20px;
     align-items: center;
-}
-
-.news {
-    flex: 1;
-    margin-right: 50px;
 }
 
 .cta {
@@ -269,6 +251,7 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 
 .card-news {
@@ -402,3 +385,191 @@ img {
 .box-container .box .desc .dec .fas{
     color: #A00000;
 }
+
+/* yayayyayaya */
+
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #000;
+  }
+
+.title {
+    font-size: 36px;
+}
+
+.title .title1 {
+    color: #FF8C32;
+}
+
+.kom .pub{
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+.kom1{
+    border: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 5px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.kom1 img{
+    width: 100%;
+    height: 600px;
+}
+
+.kom p{
+    font-size: 16px;
+}
+
+.box-containe{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(15rem, 1fr));
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.box-containe .boxx {
+    padding: 1.2rem 1.8rem;
+    width: 350px;
+    height: 370px;
+    background: #fff;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.box-containe .boxx img {
+    height: 14rem;
+    width: 60%;
+    margin: .5rem 0;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.box-containe .boxx .desckom h4{
+    font-size: 20px;
+}
+
+.box-containe .boxx .desckom span{
+    color: #7e7e7e;
+}
+
+.join{
+    width: 180px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.join a {
+    font-size: 16px;
+    padding: 8px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #06113C;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.join a:hover{
+    background-color: #ffffff;
+    /* Green */
+    color: #06113C;
+    border: 2px solid #06113C;
+    transition-duration: 0.8s;
+
+}
+
+.slidr{
+    border: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 5px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  .slidr img{
+    width: 100%;
+    height: 600px;
+  }
+
+.slidr h3{
+    color: #fafafa;
+    text-align: center;
+    margin-top: 30%;
+}
+
+/* yyaya */
+.footer {
+    display: flex;
+    background-color: #06113c;
+    color: #fff;
+    padding: 20px 10% 20px;
+  }
+  
+  .footer-section {
+    flex: 1; /* Membagi lebar dengan rasio yang sama */
+    text-align: center;
+  }
+  .contact-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .contact-form {
+    width: 70%;
+    padding: 9px 20px;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  .btn-submit {
+    height: 39px;
+    justify-content: space-between;
+    background-color: #ff8b32;
+    width: 25%;
+    padding: 9px 20px;
+    border-radius: 5px;
+  }
+  
+  .footer-text {
+    flex: 2; /* Membagi lebar dengan rasio yang sama */
+    text-align: center;
+  }
+  
+  .text-end a {
+    color: #ff8c32;
+  }
+  
+  .end-icons a {
+    height: 40px;
+    width: 40px;
+    background: #ff8c32;
+    color: #ff8c32;
+    border: 2px solid #ff8c32;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 0.5px;
+    transition: all ease 0.5s;
+  }
+  
+  .end-icons a:hover {
+    transform: translateY(-5px);
+    background: transparent;
+    border: 2px solid #ff8c32;
+  }
