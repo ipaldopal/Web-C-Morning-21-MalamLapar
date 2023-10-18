@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -37,7 +39,7 @@
     </nav>
 
 <br>
-
+<div class="content-container">
 <div class="container">
     <header class="headerlayanan">
         <div class="header-content">
@@ -57,7 +59,71 @@
         <div class="card-content">
             <p>Kami berusaha memberikan layanan pengaduan kriminalitas untuk semua daerah.</p>
         </div>
+        <div class="horizontal-search-bar">
+            <div class="search-container">
+                <div class="search-input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="input" placeholder="Cari kotamu">
+                </div>
+                <span class="separator">|</span>
+                <div class="search-input">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" class="input" placeholder="Lokasi kamu">
+                </div>
+                <div class="search-button-Cari">
+                    <button type="button" id="cari-button">Cari</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div id="service-container" style="display: none;">
+            <p>Layanan Pengaduan:</p>
+            <button id="kepolisian">Kepolisian</button>
+            <button id="kesehatan">Kesehatan</button>
+            <button id="pemadam">Pemadam</button>
+        </div>
+
+
+        <div id="police-services-container" style="display: none;">
+            <div id="back-to-main" class="small-button">
+                <span class="button-text">Layanan</span>
+                <span class="arrow">> Kepolisian</span>
+            </div>
+            <div class="police-info">
+                <img src="img/kepolisian.png" alt="Gambar Polisi">
+                <div class="police-text">
+                    <h2>Polda Metro Jaya Bandung</h2>
+                    <p><i class="fas fa-map-marker-alt text-warning"></i> Jalan Kalipah Apo No.74, Karangayar, Kec. Astanaanyar</p>
+                    <p><i class="fas fa-phone-alt"></i> No Telp : 0215201719 <i class="fas fa-clone" title="Salin Teks"></i></p> 
+                </div>
+                <a href="formlayanan.html" class="button-pengaduan">Ajukan Pengaduan <i class="fas fa-file-alt"></i></a>
+            </div>
+            <div class="police-divider"></div>  
+            <div class="police-info">
+                <img src="img/kepolisian.png" alt="Gambar Polisi">
+                <div class="police-text">
+                    <h2>Polda Metro Jaya Bandung</h2>
+                    <p><i class="fas fa-map-marker-alt text-warning"></i> Jalan Kalipah Apo No.74, Karangayar, Kec. Astanaanyar</p>
+                    <p><i class="fas fa-phone-alt"></i> No Telp : 0215201719 <i class="fas fa-clone" title="Salin Teks"></i></p> 
+                </div>
+                <a href="formlayanan.html" class="button-pengaduan">Ajukan Pengaduan <i class="fas fa-file-alt"></i></a>
+            </div>
+            <div class="police-divider"></div> 
+            <div class="police-info">
+                <img src="img/kepolisian.png" alt="Gambar Polisi">
+                <div class="police-text">
+                    <h2>Polda Metro Jaya Bandung</h2>
+                    <p><i class="fas fa-map-marker-alt text-warning"></i> Jalan Kalipah Apo No.74, Karangayar, Kec. Astanaanyar</p>
+                    <p><i class="fas fa-phone-alt"></i> No Telp : 0215201719 <i class="fas fa-clone" title="Salin Teks"></i></p> 
+                </div>
+                <a href="formlayanan.html" class="button-pengaduan">Ajukan Pengaduan <i class="fas fa-file-alt"></i></a>
+            </div>
+            <div class="police-divider"></div> 
+        </div>          
     </div>
+</div>
     
+    <script src="script.js"></script>
 </body>
 </html>
