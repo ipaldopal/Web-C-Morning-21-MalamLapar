@@ -446,12 +446,13 @@ img {
   color: #ff8c32;
 }
 .service-item {
+  padding: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   align-items: center;
-  gap: 2.2rem;
+  gap: 1rem;
   text-align: center;
-  margin-top: 4rem;
+  margin: 0 auto;
 }
 
 .service-box {
@@ -487,17 +488,15 @@ img {
 }
 
 .s-btnn {
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  width: 40%;
-  height: 100%;
-  margin: 2px 2px;
   padding: 10px;
   border: none;
   display: block;
   border-radius: 20px;
-  justify-content: center;
-  align-items: center;
   background-color: #ff8c32;
   color: #fff;
   cursor: pointer;
@@ -515,6 +514,7 @@ img {
 /* Information */
 .information .information-wrapper {
   margin: auto;
+  padding: 100px;
 }
 
 .information .row1 {
@@ -523,7 +523,6 @@ img {
 
 .information .label-information {
   font-size: 20px;
-  font-size: p;
   font-weight: 700;
   text-transform: uppercase;
   color: #06113c;
@@ -543,7 +542,6 @@ img {
 }
 
 .information-wrapper .row2 {
-  margin-bottom: 50px;
   background-color: #06113c;
   color: #ffffff;
   width: 100%;
@@ -606,7 +604,7 @@ img {
   padding: 20px;
   background-color: #cccccc;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .head {
@@ -744,3 +742,126 @@ button:hover {
 }
 
 /*layanan*/
+
+/* card informasi */
+
+.slides {
+  padding: 30px 19% 30px;
+}
+.slides a {
+  color: #000;
+}
+
+.slides span {
+  color: #666;
+}
+.card-content {
+  padding: 30px 19% 30px;
+}
+
+.pict-head img {
+  align-items: center;
+  width: 1050px;
+  height: 500px;
+}
+
+.container-angka {
+  padding: 30px 19% 30px;
+}
+
+.head-angka h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
+  color: #111c4b;
+}
+
+.rows {
+  padding: 10px;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(240, 239, 239);
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-angka h1 {
+  color: #111c4b;
+  margin: 0;
+}
+.card-angka p {
+  font-size: 14px;
+  color: #111c4b;
+  margin: 0;
+}
+.card-angka {
+  padding: 15px;
+  text-align: center;
+}
+.text-loc h2 {
+  padding: 20px 19% 30px;
+  font-size: 20px;
+}
+.service-loc {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-loc {
+  text-align: center;
+}
+
+.services-loc h2 {
+  font-size: 23px;
+  text-align: justify;
+  padding: 20px 19% 30px;
+  color: #111c4b;
+}
+
+.service-loc {
+  padding: 20px 19% 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box-loc {
+  padding: 45px 30px;
+  background: rgb(240, 239, 239);
+  border-radius: 0.8rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.box-loc img {
+  width: 150px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+.box-loc h3 {
+  font-size: 20px;
+  margin: 0;
+  line-height: 20px;
+  color: #000000;
+}
+.box-loc p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.s-btnnn {
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ff8b32;
+}
