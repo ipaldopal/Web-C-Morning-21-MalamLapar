@@ -261,6 +261,36 @@ img {
   transition: background-color 0.3s ease;
 }
 
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 63.5%;
+  margin-top: 20px;
+  margin-left: 340px;
+  padding: 20px;
+  align-items: center;
+}
+
+.news1 {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.cta {
+  flex: 0 0 200px;
+}
+
+.buttonls {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  color: #ff8c32;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
 /* Card Hot News */
 
 .card-container {
@@ -422,6 +452,23 @@ img {
 
 .title p span {
   color: #ff8c32;
+}
+
+.grid-container{
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 120px;
+  background-color: #883737;
+  justify-content: center;
+}
+
+.berita-populer{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* INFORMASI */
