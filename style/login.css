@@ -93,7 +93,7 @@ input{
     font-weight: 600;
 }
 
-button{
+button {
     margin-top: 20px;
     width: 100%;
     background-color: #ff8c32;
@@ -103,6 +103,11 @@ button{
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .register{
@@ -181,4 +186,9 @@ button{
     border-radius: 10px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.daftar a{
+    color: #fff;
+    text-decoration: none;
 }

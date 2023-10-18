@@ -105,6 +105,11 @@ button{
     cursor: pointer;
 }
 
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .register{
     display: flex;
     flex-wrap: wrap;
@@ -181,4 +186,9 @@ button{
     border-radius: 10px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.daftar a{
+    color: #fff;
+    text-decoration: none;
 }
