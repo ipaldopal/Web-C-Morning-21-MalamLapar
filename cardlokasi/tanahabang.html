@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crime</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="logo">Crime<span class="logo1">Info!</span></div>
+      <!-- Navigation Menu -->
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="informasi.html">Informasi</a></li>
+          <li><a href="lokasi.html">Lokasi</a></li>
+          <li><a href="komunitas.html">Komunitas</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <!-- Search bar -->
+          <div class="search-bar">
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="search-input">
+              <input type="text" class="input" placeholder="search" />
+            </div>
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="pict">
+        <img
+          src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Rm_xCKl4JAZYELmPvz80xQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=296.36328&pitch=0&thumbfov=100"
+        />
+      </div>
+
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active"><a href="../lokasi.html">Lokasi</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Jalan KB Melati</li>
+        </ol>
+      </nav>
+
+      <div class="info1">
+        <b>Waspada!<span class="info2"> Wilayah ini Rawan Kriminal</span></b>
+      </div>
+
+      <div class="crimeinfo">
+        <div class="deskripsi">
+          <h4><b>Peringatan Kejahatan dan Kewaspadaan</b></h4>
+          <p>
+            Kami memperingatkan Anda akan bahaya yang ada di sekitar wilayah
+            ini. Terutama, ada risiko pencurian, penipuan, dan bahkan
+            pembunuhan. Kejahatan semacam ini sering terjadi di wilayah ini,
+            oleh karena itu kami memperingatkan Anda untuk tetap waspada dan
+            mengambil tindakan pencegahan. Pastikan untuk mengunci kendaraan
+            Anda dengan baik dan tidak meninggalkan barang berharga di dalam
+            mobil. Jangan memberikan informasi pribadi atau keuangan kepada
+            orang asing atau melalui telepon atau email yang tidak sah. Selalu
+            berada di tempat-tempat yang ramai dan hindari berjalan sendirian
+            pada malam hari. Kami memperingatkan agar Anda selalu waspada dan
+            melaporkan segala perilaku mencurigakan kepada pihak berwenang.
+          </p>
+        </div>
+        <div class="chartCard">
+          <div class="chartBox">
+            <h5>
+              <b>Statistik Kejahatan di Daerah KB Melati (2021 - Sekarang)</b>
+            </h5>
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="news">
+        <div class="newstab">
+          <h4><b>Daftar Kejahatan yang Pernah Terjadi di Jalan KB Melati</b></h4>
+          <table class="table table-striped table-hover text-center align-middle mt-2">
+            <thead class="headtab">
+              <tr>
+                <th scope="col">Insiden Kriminal Tercatat</th>
+                <th scope="col">Waktu Kejadian</th>
+                <th scope="col">Sumber</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Marak Lagi Pencurian Baterai Motor Listrik, Ojol Jadi Korban!
+                </td>
+                <td>13 Mei 2023</td>
+                <td>
+                  <a href="https://oto.detik.com/catatan-pengendara-motor/d-6614416/marak-lagi-pencurian-baterai-motor-listrik-ojol-jadi-korban?_ga=2.253832520.1101094592.1697550750-1889118169.1689999791" class="rsc">Tautan Terkait</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Komplotan Pencuri Berkeliaran di Tanah Abang Jakpus
+                </td>
+                <td>3 Mei 2023</td>
+                <td><a href="#" class="rsc">Tautan Terkait</a></td>
+              </tr>
+              <tr>
+                <td>Penipu Jual Tiket Indonesia Vs Argentina Lebih Mahal dari Harga Resmi</td>
+                <td>19 Maret 2022</td>
+                <td><a href="https://news.detik.com/berita/d-6781403/penipu-jual-tiket-indonesia-vs-argentina-lebih-mahal-dari-harga-resmi" class="rsc">Tautan Terkait</a></td>
+              </tr>
+              <tr>
+                <td>Nenek Tewas Dibunuh Pacar Berondong Usai Berhubungan Badan</td>
+                <td>17 Januari 2022</td>
+                <td><a href="#" class="rsc">Tautan Terkait</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="boxImg">
+          <div class="item-div" id="box">
+            <div class="item">
+              <img src="https://pbs.twimg.com/media/D3mUT7VU0AAbY4X.jpg" alt=""/>
+              <span>Selasa, 11 Juli 2023</span>
+            </div>
+            <div class="item">
+              <img src="https://thumbs.dreamstime.com/b/tanah-abang-district-jakarta-indonesia-april-jalan-fachrudin-99980421.jpg" alt=""/>
+              <span>Sabtu, 15 April 2023</span>
+            </div>
+          </div>                    
+        </div>
+      </div>
+      <br>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+  <script>
+    // setup
+    const data = {
+      labels: ["Pencurian", "Penipuan", "Pembunuhan"],
+      datasets: [
+        {
+          label: "Crime Data",
+          data: [30, 10, 5],
+          backgroundColor: ["#A00000", "#06113C", "#FF8C32"],
+          borderWidth: 0,
+        },
+      ],
+    };
+
+    // config
+    const config = {
+      type: "pie",
+      data,
+      options: {
+        plugins: {
+          legend: {
+            position: "right",
+            labels: {
+              usePointStyle: true,
+              pointStyle: "rect",
+              font: {
+                size: 16,
+                family: "'Poppins', sans-serif",
+              },
+            },
+          },
+          tooltip: {
+            enabled: false,
+          },
+          datalabels: {
+            align: "center",
+            color: "#fafafa",
+            formatter: (value, context) => {
+              const datapoints = context.chart.data.datasets[0].data;
+              function totalSum(total, datapoint) {
+                return total + datapoint;
+              }
+              const totalvalue = datapoints.reduce(totalSum, 0);
+              const percentageValue = ((value / totalvalue) * 100).toFixed(1);
+              const display = [`${percentageValue}%`];
+              return display;
+            },
+          },
+        },
+      },
+      plugins: [ChartDataLabels],
+    };
+
+    // render init block
+    const myChart = new Chart(document.getElementById("myChart"), config);
+
+    // Instantly assign Chart.js version
+    const chartVersion = document.getElementById("chartVersion");
+    chartVersion.innerText = Chart.version;
+
+  </script>
+
+</html>

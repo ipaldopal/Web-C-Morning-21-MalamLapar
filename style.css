@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #06113C;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* Logo */
+.logo {
+  font-size: 36px;
+}
+
+.logo .logo1 {
+  color: #FF8C32;
+  font-size: 36px;
+}
+
+/* Navbar Menu */
+.menu {
+  display: flex;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #FF8C32;
+  text-shadow: none;
+}
+
+.menu li {
+  padding: 10px 14px;
+}
+
+/* Button */
+.menu .button1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  border: none;
+  display: block;
+  border-radius: 20px;
+  background-color: #FF8C32;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  /* Green */
+  color: #FF8C32;
+  border: 2px solid #FF8C32;
+  transition-duration: 0.8s;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 4px 16px;
+  border-radius: 20px;
+  width: 215px;
+  margin-left: 8px;
+}
+
+.search-bar .search-icon{
+  font-size: 1.2rem;
+  color: #7e7e7e;
+}
+
+.search-bar .search-input{
+  transition: .5s;
+  width: 0px;
+}
+
+.search-bar .search-input .input{
+  border: none;
+  outline: none;
+  background-color: unset;
+  padding: 8px;
+  font-family: 'Poppins';
+  font-size: .9rem;
+}
+
+/* lokasi */
+
+#map{
+  width: 100%;
+  height: 680px;
+  margin-right: 2rem;
+}
+
+.container-map{
+  margin: 3rem;
+}
+
+/* popup lokasi */
+.leaflet-popup-content-wrapper{
+  overflow: hidden;
+  padding: 0px;
+
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content{
+  background-color: #06113C;
+  margin: 0px;
+  color: #fafafa;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.leaflet-popup-tip-container .leaflet-popup-tip{
+  background-color: #06113C;
+}
+
+/* card lokasi */
+.pict{
+  border: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 5px 28px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.pict img{
+  width: 100%;
+  height: 600px;
+}
+
+.breadcrumb{
+  margin-top: 3rem;
+}
+
+.info1 {
+  font-size: 30px;
+  color: #A00000;
+  text-align: center;
+}
+
+.info1 .info2 {
+  color: #000;
+  font-size: 30px;
+}
+
+.crimeinfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.crimeinfo h4{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.crimeinfo .deskripsi {
+  display: block;
+  margin: 0 12rem 0 0;
+}
+
+.chartBox {
+  margin-top: 3rem;
+  justify-content: center;
+  width: 450px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px #eeeeee;
+  background: white;
+}
+
+.chartBox h5{
+  margin-top: 0px;
+  text-align: center;
+}
+
+.chartBox #myChart{
+  width: 80%;
+}
+
+.news {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news .newstab {
+  margin-top: 3rem;
+  display: block;
+}
+
+.news .newstab h4{
+  margin-bottom: 1rem;
+}
+
+.headtab{
+  background: #06113C;
+  color: #fafafa;
+}
+
+.table a {
+  font-size: 15px;
+  margin: 4px 2px;
+  padding: 3px;
+  text-align: center;
+  border: none;
+  display: block;
+  border-radius: 5px;
+  background-color: #FF8C32;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.table a:hover{
+  background-color: #ffffff;
+  /* Green */
+  color: #FF8C32;
+  border: 2px solid #FF8C32;
+  transition-duration: 0.8s;
+
+}
+
+.boxImg{
+  margin-top: 1rem;
+  justify-content: center;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px #eeeeee;
+  background: white;
+  position: relative;
+}
+
+.boxImg .item-div{
+  overflow-y: auto;
+  display: block;
+}
+
+span{
+  color: #7e7e7e;
+  font-size: 14px;
+}
+.boxImg img{
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
+.breadcrumb-item a{
+  text-decoration: none;
+  color: #000;
+}

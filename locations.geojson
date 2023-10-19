@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Rm_xCKl4JAZYELmPvz80xQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=296.36328&pitch=0&thumbfov=100",
+        "Address": "Jalan KB Melati, Kebon Melati, Tanah Abang, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Jawa, 10230, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "70% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          106.81653296279046,
+          -6.197438586974187
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://properthy.com/filedata/public/photoproperty/7498964C-8A62-43D7-887A-4715D2C66A87-452cc.jpeg",
+        "Address": "Jalan Dokter Sam Ratulangi, Gondangdia, Menteng, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Jawa, 10350, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "60% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          106.8293355555553,
+          -6.191131265268879
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://rumah.dijual.co.id/uploads/images/2022/07/210618/ruko-di-utan-panjang-kemayoran-haji-ung-bendungan-jago-BHRPBGY3.jpg",
+        "Address": "Jalan Utan Panjang V, Utan Panjang, Kemayoran, Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Jawa, 10530, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "70% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          106.85417989655394,
+          -6.165942148236823
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_UQ-TYt1OZBT9bLPiUi8fA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=136.23549&pitch=0&thumbfov=100",
+        "Address": "Jalan Williem Iskandar Pasar V Barat, Kenangan, Deli Serdang, Sumatera Utara, Sumatra, 20223, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "80% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          98.71753770949243,
+          3.6060450983572707
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OeyK4Ku4xe-BCm7O9N_1UQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=5.755186&pitch=0&thumbfov=100",
+        "Address": "Jalan Perwira III, Pulo Brayan Bengkel, Kota Medan, Sumatera Utara",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "80% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          98.6839004313697,
+          3.633889070139162
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "http://4.bp.blogspot.com/-gou7zckFg2g/VU8Jngk_jHI/AAAAAAAAAFU/xhkoxycS1a4/s1600/jualanpinggirjalan.jpg",
+        "Address": "Jalan Karya Bersama, Anggrung, Medan Polonia, Kota Medan, Sumatera Utara, Sumatra, 20145, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "60% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          98.66380408048275,
+          3.5679517315946185
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qVfGpWzTbyF0d4FuwFNp4g&cb_client=search.gws-prod.gps&w=408&h=240&yaw=228.5647&pitch=0&thumbfov=100",
+        "Address": "Jalan Sungai Limboto, Lajangiru, Ujung Pandang, Makassar, Sulawesi Selatan, Sulawesi, 90154, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "40% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          119.4201441658945,
+          -5.142154254933857
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7i8NF9mv6OGw8QZn67DSDw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=182.5931&pitch=0&thumbfov=100",
+        "Address": "Jalan Andi Tadde, Kalukuang, Tallo, Makassar, Sulawesi Selatan, Sulawesi, 90151, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "60% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          119.430433749249,
+          -5.126995438206222
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://incomerealty.id/wp-content/uploads/2022/11/Dijual-rumah-jalan-Kemang-Manis-Bukit-Besar-06.jpeg",
+        "Address": "Jalan Kemang Manis, Ilir Barat II, Palembang, Sumatera Selatan, Sumatra, 30144, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "40% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          104.73691376573362,
+          -2.9936206446115534
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://lh5.googleusercontent.com/p/AF1QipPLR3Av_feT4fV8hCj91nXgVofoiuWZlQhrVfvZ=w408-h306-k-no",
+        "Address": "Jalan Rawa Jaya, Kemuning, Palembang, Sumatera Selatan, Sumatra, 30129, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "40% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          104.7485418246265,
+          -2.9640752126179706
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=bSXdhLzhG1mzeZPQ58L4bw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=306.5264&pitch=0&thumbfov=100",
+        "Address": "Jalan Jepang, Alang-Alang Lebar, Palembang, Sumatera Selatan, Sumatra, 30154, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "70% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          104.69569454043898,
+          -2.9172245171960327
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GdaOplBP4m5IqZpaORwLCA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=212.20732&pitch=0&thumbfov=100",
+        "Address": "Jalan Kalilom Lor Indah, Tanah Kali Kedinding, Kenjeran, Surabaya, Jawa Timur, Jawa, 60129, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "40% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          112.77798416968557,
+          -7.228891299519901
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Picture": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=npKumqW6pCxDVoX5GyvJlg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=222.00282&pitch=0&thumbfov=100",
+        "Address": "Jalan Kedung Mangu, Sidotopo Wetan, Kenjeran, Surabaya, Jawa Timur, Jawa, 60128, Indonesia",
+        "URL": "https://www.deepl.com/translator",
+        "Data": "40% Rawan Kriminal"
+      },
+      "geometry": {
+        "coordinates": [
+          112.76070173939758,
+          -7.224403317567905
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

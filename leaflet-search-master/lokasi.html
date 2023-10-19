@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="leaflet-search-master\dist\leaflet-search.src.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"/>
+    <script src="locations.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="logo">Crime<span class="logo1">Info!</span></div>
+      <!-- Navigation Menu -->
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="informasi.html">Informasi</a></li>
+          <li><a href="lokasi.html">Lokasi</a></li>
+          <li><a href="komunitas.html">Komunitas</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <!-- Search bar -->
+          <div class="search-bar">
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="search-input">
+              <input type="text" class="input" placeholder="search" />
+            </div>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <br />
+    <div class="container-map">
+      <div id="map"></div>
+    </div>
+  </body>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="leaflet-search-master\dist\leaflet-search.src.js"></script>
+  <script>
+    const map = L.map("map");
+    map.setView([-6.1771, 106.8283], 13);
+
+    // L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // }).addTo(map)
+
+    L.tileLayer(
+      "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
+      {
+        attribution:
+          'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+        id: "mapbox/streets-v11",
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken:
+          "pk.eyJ1IjoibW9tb2JhbWkiLCJhIjoiY2xucGp2ZzZ0MGJiYzJubXY3cGN4ZjVoaCJ9.vVXqkE8Djt6J-I2n7Yvsxw",
+      }
+    ).addTo(map);
+
+    const searchLayer = L.geoJSON(cityLocations, {
+      onEachFeature: function (feature, layer) {
+        if (feature.properties) {
+          var imageUrl = feature.properties.Picture;
+          var pageUrl = feature.properties.URL;
+
+          var popupContent =
+            "<div style='text-align: center;'>" +
+            "<a href='" +
+            pageUrl +
+            "' target='_blank'><img src='" +
+            imageUrl +
+            "' width='180px'; height='100px';></a><br>" +
+            feature.properties.Address +
+            "<br><br>" +
+            feature.properties.Data +
+            "</div>";
+
+          layer.bindPopup(popupContent);
+        }
+      },
+    }).addTo(map);
+
+    const searchControl = new L.Control.Search({
+      layer: searchLayer,
+      propertyName: "Address",
+    });
+
+    map.addControl(searchControl);
+
+    function customPopup(locations) {
+      `<div>
+        <p>${locations.properties.Address}</p>
+        <h4>${locations.properties.Data}</h4>
+      </div>`;
+    }
+  </script>
+</html>
